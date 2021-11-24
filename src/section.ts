@@ -1,6 +1,6 @@
 import { Entity } from "@owensdoug/model-ts/src/entity";
 import { Content } from "./content";
 
-export interface Section extends Entity {
+export interface Section extends Entity<Section> {
   contents: Content[];
 }
